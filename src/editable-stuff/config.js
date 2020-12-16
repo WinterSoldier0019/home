@@ -6,31 +6,31 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
-  middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  firstName: "Arjun",
+  middleName: "Singh",
+  lastName: "Yadav",
+  message: " Student and Aspiring Software Developer ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/WinterSoldier0019",
     },
-    {
+    /*{
       image: "fa-facebook",
       url: "https://www.facebook.com/hashirshoaeb",
-    },
+    }*/,
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/kingslayer0019/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/wintersoldier0019/",
     },
-    {
+    /*{
       image: "fa-twitter",
       url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    },*/
   ],
 };
 
@@ -51,10 +51,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
-  message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+  imageLink: require("../editable-stuff/939438.png"),
+  imageSize: 400,
+  message: "Hello!! My name is Arjun Singh Yadav. I am a BE final year student from the prestigious Netaji Subash Institute of Technology (NSIT) currently pusuing engineering in Information Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering as well. I have keen interest in software development and have prior hands on experinece in the feild of Web Development, Machine Learning and Deep Learning. I am avid and quick learner. I go by the Alias of WinterSoldier in Tech Community",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -65,26 +64,26 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  heading: "Projects",
+  gitHubUsername: "WinterSoldier0019", 
+  reposLength: 6,
   specificRepos: [],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Experience",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/939438.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/939438.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
